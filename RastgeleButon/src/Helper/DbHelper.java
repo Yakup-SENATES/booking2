@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DbHelper {
 
-	String usr = "root", pass = "yakup0101", dbUrl = "jdbc:mysql://localhost:3306/booking";
+	String usr = "root", pass = "pass", dbUrl = "jdbc:mysql://localhost:3306/booking";
 
 	public Connection getConnection() throws SQLException {
 
